@@ -1,10 +1,9 @@
 class Owner
   
   @@all = []
-  attr_reader :name
   
-  def initialize(name)
-    @name = name
+  def initialize
+    @@all << self
   end
   
 end
