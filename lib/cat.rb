@@ -7,4 +7,5 @@ class Cat
     @name = name
     @mood = mood
   end
+  
 end
